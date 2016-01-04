@@ -1,0 +1,335 @@
+html,body {
+	margin: 0;
+	padding: 0;
+	color: #222;
+	font-family: Microsoft YaHei, Helvitica, Verdana, Tohoma, Arial, san-serif;
+	text-decoration: none;
+}
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	border: 0;
+}
+
+ol,ul {
+	list-style: none outside none;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #000000;
+	text-decoration: none;
+}
+
+.clr {
+	display: block;
+	clear: both;
+	height: 0;
+	overflow: hidden;
+}
+
+.copyright {
+	padding: 8px;
+	text-align: center;
+	font-size: 14px;
+	color: #666;
+}
+
+.copyright a {
+	color: #666;
+}
+
+body {
+	background-color: #eee;
+	font-size: 16px;
+}
+
+body .mainmenu {
+	margin: 6px;
+	border-radius: 5px;
+	overflow: hidden;
+	border: 0;
+}
+
+body .mainmenu li {
+	border-bottom: 1px solid #CCC;
+	background: -webkit-gradient(linear, 55% 100%, 55% 0%, from(#f1f1f1), to(#ffffff) );
+	overflow: hidden;
+	
+	border: 1px solid #CCC;
+	margin-bottom: 6px;
+	border-radius: 5px;
+}
+
+body .mainmenu li a {
+	display: block;
+	padding: 6px 30px 6px 20px;
+	position: relative;
+	box-shadow: 0 -1px 1px rgba(255, 255, 255, 1) inset;
+}
+
+body .mainmenu li a em {
+	display: block;
+	width: 8px;
+	height: 100%;
+	position: absolute;
+	left: 0px;
+	top: 0;
+}
+
+body .mainmenu li a p {
+	color: #858585;
+}
+
+body .mainmenu li a span {
+	line-height: 24px;
+	color: #4a4a4a
+}
+
+body .mainmenu li a i {
+	display: block;
+	line-height: 24px;
+	font-size: 12px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	color: #b0b0b0;
+	font-style: normal;
+}
+
+body .mainmenu li a b {
+	display: block;
+	width: 15px;
+	height: 19px;
+	position: absolute;
+	top: 50%;
+	margin-top: -10px;
+	right: 10px;
+	background: url(../images/jt.png) no-repeat;
+	background-size: 15px 19px;
+}
+
+body .mainmenu li:last-child {
+	border-bottom: none
+}
+
+body .mainmenu li:nth-child(8n+1) a em {
+	background-color: #36A1DB
+}
+
+body .mainmenu li:nth-child(8n+2) a em {
+	background-color: #678ce1
+}
+
+body .mainmenu li:nth-child(8n+3) a em {
+	background-color: #8c67df
+}
+
+body .mainmenu li:nth-child(8n+4) a em {
+	background-color: #84d018
+}
+
+body .mainmenu li:nth-child(8n+5) a em {
+	background-color: #14c760
+}
+
+body .mainmenu li:nth-child(8n+6) a em {
+	background-color: #f3b613
+}
+
+body .mainmenu li:nth-child(8n+7) a em {
+	background-color: #ff8a4a
+}
+
+body .mainmenu li:nth-child(8n+8) a em {
+	background-color: #fc5366
+}
+
+body .mainmenu li:last-child {
+	border-bottom: 1px solid #CCC;
+}
+
+/*内页*/
+.submenu {
+	margin: 6px;
+	overflow: hidden;
+}
+
+.submenu li {
+	border-radius: 5px;
+	margin-bottom: 6px;
+	overflow: hidden;
+	padding: 10px 30px 10px 20px;
+	position: relative;
+	background-color: #c8c8c8;
+}
+
+.get_more {
+	padding: 16px;
+	margin: 20px 40px;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	color: #222;
+	background-image: linear-gradient(#fff, #f1f1f1);
+	border-radius: 12px;
+	border: 1px solid #ccc;
+}
+
+.ui-icon-minus {
+	background: #666;
+	background: rgba(0, 0, 0, .4);
+	display: block;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 50%;
+	margin-top: -10px;
+	right: 10px;
+	background-image: url(../images/icons-18-white.png);
+	border-radius: 9px;
+	background-position: -36px 0px;
+}
+
+.ui-icon-plus {
+	background: #666;
+	background: rgba(0, 0, 0, .4);
+	display: block;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 50%;
+	margin-top: -10px;
+	right: 10px;
+	background-image: url(../images/icons-18-white.png);
+	border-radius: 9px;
+}
+
+.submenu .panel {
+	margin-top: -2px;
+	/* min-height: 120px; */
+	display: none;
+	z-index: 100;
+	margin-bottom: 6px;
+	border-radius: 5px;
+	background-color: #CCCCCC;
+}
+
+.submenu .panel p {
+	padding: 6px 30px 6px 20px;
+	clear: both;
+	font-size: 14px;
+	background-color: #ffffff;
+	margin-bottom: 1px;
+}
+
+.submenu .panel p:nth-child(2n) {
+	padding: 6px 30px 6px 20px;
+	clear: both;
+	font-size: 14px;
+	background-color: #dbdbdb;
+	margin-bottom: 1px;
+}
+
+/* top_menu */
+.top_bar {
+	position: fixed;
+	z-index: 900;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	font-family: Helvetica, Tahoma, Arial, Microsoft YaHei, sans-serif;
+}
+
+.top_menu {
+	display: -webkit-box;
+	border-top: 1px solid #b3b3b3;
+	display: block;
+	width: 100%;
+	background: rgba(255, 255, 255, 0.7);
+	height: 40px;
+	display: -webkit-box;
+	display: box;
+	margin: 0;
+	padding: 0;
+	-webkit-box-orient: horizontal;
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#e7e4e7), to(#b9b9b9) );
+}
+
+.top_menu li {
+	-webkit-box-flex: 1;
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, 0.1)), color-stop(50%, rgba(0, 0, 0, 0.2) ), to(rgba(0, 0, 0, 0.2) ) ),
+		-webkit-gradient(linear, 0 0, 0 100%, from(rgba(255, 255, 255, 0.1) ), color-stop(50%, rgba(255, 255, 255, 0.3) ), to(rgba(255, 255, 255, 0.1) ) );
+	-webkit-background-size: 1px 100%, 1px 100%;
+	background-size: 1px 100%, 1px 100%;
+	background-position: 1px center, 2px center;
+	background-repeat: no-repeat;
+	position: relative;
+	text-align: center;
+	display: inline-block;
+	width: 25%;
+	float: left;
+}
+
+.top_menu li a label {
+	padding: 3px 0 0 3px;
+	font-size: 12px;
+	overflow: hidden;
+}
+
+.top_menu li a {
+	height: 40px;
+	line-height: 40px;
+	display: block;
+	text-align: center;
+	color: #4f4d4f;
+	text-shadow: 0 1px rgba(255, 255, 255, 0.3);
+	text-decoration: none;
+	border-top: 1px solid #f9f9f9;
+	-webkit-box-flex: 1;
+}
+
+.top_menu li a p {
+	overflow: hidden;
+	margin: 0 0 0 0;
+	font-size: 12px;
+	display: block !important;
+	line-height: 18px;
+	text-align: center;
+}
+
+.top_menu li a img {
+	padding: 0;
+	height: 20px;
+	width: 20px;
+	color: #fff;
+	line-height: 40px;
+	vertical-align: middle;
+}
+
+.top_menu li a:hover,.top_menu li a:active {
+	background-color: #CCCCCC;
+}
+
+/* music */
+.btn_music {
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	background: url('../images/play.png') no-repeat center center;
+	background-size: 100% auto;
+	position: absolute;
+	z-index: 100;
+	left: 15px;
+	top: 20px;
+}
+
+.btn_music.on {
+	background-image: url("../images/stop.png");
+}

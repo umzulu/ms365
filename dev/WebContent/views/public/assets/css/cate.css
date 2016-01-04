@@ -1,0 +1,233 @@
+html,body {
+	margin: 0;
+	padding: 0;
+	color: #222;
+	font-family: Microsoft YaHei, Helvitica, Verdana, Tohoma, Arial, san-serif;
+	text-decoration: none;
+}
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	border: 0;
+}
+
+ol,ul {
+	list-style: none outside none;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #000000;
+	text-decoration: none;
+}
+
+.clr {
+	display: block;
+	clear: both;
+	height: 0;
+	overflow: hidden;
+}
+
+.copyright {
+	padding: 8px;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	position: relative;
+	z-index: 1;
+}
+
+.copyright a {
+	color: #fff;
+}
+
+body .mainmenu:after {
+	clear: both;
+	content: " ";
+	display: block;
+}
+
+body .mainmenu {
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+	z-index: 1;
+}
+
+body .mainmenu li {
+	float: left;
+	margin-left: 6.6%;
+	margin-top: 5%;
+	width: 40%;
+	border: 1px solid rgba(255, 255, 255, 0.4);
+	background-color: rgba(255, 255, 255, 0.3);
+	border-radius: 7px;
+}
+
+body .mainmenu li {
+	border: 0px;
+	overflow: hidden;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.8);
+	border-radius: 0;
+}
+
+body .mainmenu li p {
+	text-align: center;
+	display: block;
+	margin: 0;
+}
+
+body .mainmenu li a {
+	display: block;
+	color: #FFF;
+	text-align: center;
+	overflow: hidden;
+}
+
+body .mainmenu li:active {
+	background-color: rgba(255, 255, 255, 0.1)
+}
+
+body .mainmenu li a img {
+	width: 42%;
+	margin: 20px 0;
+}
+
+body .mainmenu li a span {
+	display: block;
+	padding: 0px 2%;
+	line-height: 30px;
+	font-size: 14px;
+	overflow: hidden;
+	background-color: rgba(0, 0, 0, 0.4);
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	text-align: center;
+}
+
+body .mainmenu li:nth-child(6n+1) {
+	background-color: #dd1184;
+}
+
+body .mainmenu li:nth-child(6n+2) {
+	background-color: #079ae8;
+}
+
+body .mainmenu li:nth-child(6n+3) {
+	background-color: #8fb210;
+}
+
+body .mainmenu li:nth-child(6n+4) {
+	background-color: #caa703;
+}
+
+body .mainmenu li:nth-child(6n+5) {
+	background-color: #5359bb;
+}
+
+body .mainmenu li:nth-child(6n+6) {
+	background-color: #019cba;
+}
+
+/* top_menu */
+.top_bar {
+	position: fixed;
+	z-index: 900;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	font-family: Helvetica, Tahoma, Arial, Microsoft YaHei, sans-serif;
+}
+
+.top_menu {
+	display: -webkit-box;
+	border-top: 1px solid #b3b3b3;
+	display: block;
+	width: 100%;
+	background: rgba(255, 255, 255, 0.7);
+	height: 40px;
+	display: -webkit-box;
+	display: box;
+	margin: 0;
+	padding: 0;
+	-webkit-box-orient: horizontal;
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#e7e4e7), to(#b9b9b9) );
+}
+
+.top_menu li {
+	-webkit-box-flex: 1;
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, 0.1)), color-stop(50%, rgba(0, 0, 0, 0.2) ), to(rgba(0, 0, 0, 0.2) ) ),
+		-webkit-gradient(linear, 0 0, 0 100%, from(rgba(255, 255, 255, 0.1) ), color-stop(50%, rgba(255, 255, 255, 0.3) ), to(rgba(255, 255, 255, 0.1) ) );
+	-webkit-background-size: 1px 100%, 1px 100%;
+	background-size: 1px 100%, 1px 100%;
+	background-position: 1px center, 2px center;
+	background-repeat: no-repeat;
+	position: relative;
+	text-align: center;
+	display: inline-block;
+	width: 25%;
+	float: left;
+}
+
+.top_menu li a label {
+	padding: 3px 0 0 3px;
+	font-size: 12px;
+	overflow: hidden;
+}
+
+.top_menu li a {
+	height: 40px;
+	line-height: 40px;
+	display: block;
+	text-align: center;
+	color: #4f4d4f;
+	text-shadow: 0 1px rgba(255, 255, 255, 0.3);
+	text-decoration: none;
+	border-top: 1px solid #f9f9f9;
+	-webkit-box-flex: 1;
+}
+
+.top_menu li a p {
+	overflow: hidden;
+	margin: 0 0 0 0;
+	font-size: 12px;
+	display: block !important;
+	line-height: 18px;
+	text-align: center;
+}
+
+.top_menu li a img {
+	padding: 0;
+	height: 20px;
+	width: 20px;
+	color: #fff;
+	line-height: 40px;
+	vertical-align: middle;
+}
+
+.top_menu li a:hover,.top_menu li a:active {
+	background-color: #CCCCCC;
+}
+
+/* music */
+.btn_music {
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	background: url('../images/play.png') no-repeat center center;
+	background-size: 100% auto;
+	position: absolute;
+	z-index: 100;
+	left: 15px;
+	top: 20px;
+}
+
+.btn_music.on {
+	background-image: url("../images/stop.png");
+}
